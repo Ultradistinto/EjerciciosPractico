@@ -16,6 +16,7 @@ public class Ventanax extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        buttonGroup1 = new javax.swing.ButtonGroup();
         BotonAutor = new javax.swing.JButton();
         BotonRojo = new javax.swing.JRadioButton();
         BotonAzul = new javax.swing.JRadioButton();
@@ -30,6 +31,7 @@ public class Ventanax extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(BotonRojo);
         BotonRojo.setText("Rojo");
         BotonRojo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -37,6 +39,7 @@ public class Ventanax extends javax.swing.JFrame {
             }
         });
 
+        buttonGroup1.add(BotonAzul);
         BotonAzul.setText("Azul");
         BotonAzul.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,5 +96,6 @@ public class Ventanax extends javax.swing.JFrame {
     private javax.swing.JButton BotonAutor;
     private javax.swing.JRadioButton BotonAzul;
     private javax.swing.JRadioButton BotonRojo;
+    private javax.swing.ButtonGroup buttonGroup1;
     // End of variables declaration//GEN-END:variables
 }
