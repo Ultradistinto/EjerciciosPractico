@@ -85,6 +85,7 @@ public class Menu extends javax.swing.JFrame {
         v3.setVisible(true);
     }//GEN-LAST:event_Ej3ActionPerformed
 
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem Ej1;
